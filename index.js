@@ -2,8 +2,7 @@ import Turbolinks from "turbolinks";
 
 Turbolinks.start();
 
-const body = document.querySelector("body");
-const js = body.querySelectorAll("script");
+const js = document.querySelectorAll("body script");
 const head = document.querySelector("head");
 
 document.addEventListener("turbolinks:load", function() {
