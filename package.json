@@ -1,0 +1,11 @@
+{
+  "name": "turbo-webflow",
+  "version": "0.0.1",
+  "description": "Pluging to add turbolinks to any Webflow project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Weis <jw@revampit.co>",
+  "license": "MIT"
+}
