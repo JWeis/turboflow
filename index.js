@@ -9,8 +9,8 @@ const head = document.querySelector("head");
 document.addEventListener("turbolinks:load", function() {
   console.log("TurboFlow is Loaded!");
   js.forEach(bs => {
-    body.removeChild(bs);
     head.appendChild(bs);
+    body.removeChild(bs);
   });
 });
 
