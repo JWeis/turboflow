@@ -4,7 +4,7 @@ module.exports = {
   mode: "production",
   entry: "./index.js",
   output: {
-    filename: "turboflow.min.js",
+    filename: "turboflow.js",
     path: path.resolve(__dirname, "dist")
   }
 };
