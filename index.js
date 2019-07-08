@@ -8,6 +8,7 @@ document.addEventListener("turbolinks:load", function() {
 
 // Remove & Replace Head
 document.addEventListener("turbolinks:before-cache", function() {
+  console.log("before-cache");
   const script = document.querySelector("script.turboflow");
   const head = document.querySelector("head");
   const title = document.querySelector("title");
