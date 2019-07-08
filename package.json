@@ -1,6 +1,6 @@
 {
   "name": "turbo-webflow",
-  "version": "0.0.2",
+  "version": "0.0.20",
   "description": "Pluging to add turbolinks to any Webflow project",
   "main": "index.js",
   "scripts": {
