@@ -7,7 +7,7 @@ const js = body.querySelectorAll("script");
 const head = document.querySelector("head");
 
 document.addEventListener("turbolinks:load", function() {
-  console.log("TurboFlow is Loaded!");
+  console.log("TurboFlow is Loaded! v2");
   js.forEach(bs => {
     head.appendChild(bs);
     body.removeChild(bs);
